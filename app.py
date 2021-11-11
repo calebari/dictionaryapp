@@ -5,7 +5,7 @@ st.title("Caleb's super duper dictionary app")
 dc = PyDictionary.PyDictionary()
 
 st.sidebar.title('enter your word here')
-a=st.sidebar.text_input('',30)
+a=st.sidebar.text_input('',a word please)
 
 if st.button('Generate Definition'):
     generated_text = dc.meaning(a)
