@@ -7,5 +7,10 @@ dc = PyDictionary.PyDictionary()
 st.sidebar.title('enter your word here')
 a=st.sidebar.text_input('',30)
 
+if st.button('Generate Definition'):
+    generated_text = dc.meaning(a)
+    st.write(generated_text)
+    
+   
 w1 = dc.meaning(a)
 print(w1)
