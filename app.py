@@ -10,7 +10,3 @@ a=st.sidebar.text_input('',)
 if st.button('Generate Definition'):
     generated_text = dc.meaning(a)
     st.write(generated_text)
-    
-   
-w1 = dc.meaning(a)
-print(w1)
